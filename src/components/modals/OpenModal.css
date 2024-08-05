@@ -1,0 +1,40 @@
+.overlay {
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.modal h2 {
+    margin-top: 0;
+}
+
+.close-button {
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.close-button:hover {
+    background-color: #21a1f1;
+}

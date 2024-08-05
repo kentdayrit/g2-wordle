@@ -1,0 +1,21 @@
+.custom-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+    border-color: #61dafb;
+    outline: none;
+}
+
+.custom-input:disabled {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+    cursor: not-allowed;
+}

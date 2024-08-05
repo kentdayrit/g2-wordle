@@ -1,0 +1,62 @@
+.wordle-game {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.input-container {
+    margin: 20px;
+}
+
+input {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.message {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.attempts {
+    margin-top: 20px;
+}
+
+.attempt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.letter {
+    padding: 10px;
+    margin: 2px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.letter.correct {
+    background-color: green;
+    color: white;
+}
+
+.letter.present {
+    background-color: yellow;
+    color: black;
+}
+
+.letter.absent {
+    background-color: lightgrey;
+    color: white;
+}
